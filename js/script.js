@@ -1,3 +1,4 @@
+"use strict";
 // ==================================================================
 //  OPGAVE 3 – BYG DIN INTERAKTIVE ZOO
 //  Noget af koden er skrevet for dig. Du skal tilføje, hvor der står ✏️
@@ -49,7 +50,26 @@
 // 💬 Sparring 2: Forklar, hvorfor age står uden anførselstegn.
 
 // ✏️ Skriv dit array her ↓
-
+const animalInfo = [
+  {className: "animal1", 
+    name: "Simba", 
+    species: "Løve", 
+    age: 5, 
+    food: "Kød"
+  },  
+   {className: "animal2", 
+    name: "Dumbo", 
+    species: "Elefant", 
+    age: 8, 
+    food: "Blade og frugt"
+  },  
+  {className: "animal3", 
+    name: "Gerald", 
+    species: "Giraf", 
+    age: 6, 
+    food: "Blade fra høje træer"
+  }
+];
 
 
 // ✅ Test: Kig i Console – er der 3 dyr?
